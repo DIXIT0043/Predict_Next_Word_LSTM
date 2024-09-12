@@ -5,9 +5,9 @@ import streamlit as st
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-model  = load_model(r'C:\Users\kumar\OneDrive\Desktop\Gen AI\LSTM\next_word_prediction_model.h5')
+model  = load_model('next_word_prediction_model.h5')
 
-with open(r'C:\Users\kumar\OneDrive\Desktop\Gen AI\LSTM\tokenizer_next_word_prediction.pkl','rb') as handle:
+with open('tokenizer_next_word_prediction.pkl','rb') as handle:
     tokeizer = pickle.load(handle)
 
 def predict_next_word(model,tokenizer,text,max_seq_len):
