@@ -47,20 +47,20 @@ Prediction: The app takes a user input of a sequence of words and uses the model
 
 ## File Structure
 
-    app.py: The main script that runs the Streamlit web app.
-    next_word_prediction_model.h5: The pre-trained LSTM model.
-    tokenizer_next_word_prediction.pkl: The tokenizer used to preprocess the input text.
+app.py: The main script that runs the Streamlit web app.
+next_word_prediction_model.h5: The pre-trained LSTM model.
+tokenizer_next_word_prediction.pkl: The tokenizer used to preprocess the input text.
 
 ## Example Usage
 
-    Input a sequence of words in the provided text box.
-    Click on the "Predict Next Button".
-    The predicted next word will be displayed on the screen.
+Input a sequence of words in the provided text box.
+Click on the "Predict Next Button".
+The predicted next word will be displayed on the screen.
 
 # Requirements
 
-    Python 3.x
-    TensorFlow
-    Streamlit
-    NumPy
-    Pandas
+Python 3.x
+TensorFlow
+Streamlit
+NumPy
+Pandas
