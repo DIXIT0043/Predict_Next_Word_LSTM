@@ -1,7 +1,8 @@
 # Next Word Prediction with LSTM
 
 This project is a web-based application that predicts the next word in a sequence using an LSTM (Long Short-Term Memory) model. The application is built using Streamlit, a Python framework for creating interactive web applications.
-
+## Visit
+Link = [https://obesity-detector-bydixit.streamlit.app/](https://predict-next-word-lstm-bydixit.streamlit.app/)
 ## Features
 - **Interactive UI**: Users can input a sequence of words, and the app predicts the next word in the sequence.
 - **LSTM Model**: The model used for prediction is a pre-trained LSTM neural network.
